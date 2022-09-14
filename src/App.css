@@ -1,0 +1,26 @@
+div#root{
+    background-color: rgb(33, 32, 32);
+}
+p{
+    color: white;
+}
+.inpt{
+    width: 50%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+}
+.inp-back{
+    background-color: rgb(17, 23, 57);
+}
+.container{
+    border: 1px solid white;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.favorite{
+    margin-top: 10px;
+    background-color: white;
+    width: 10%;
+    border-radius: 5px;
+}
+

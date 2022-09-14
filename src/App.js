@@ -5,6 +5,7 @@ import SearchBox from "./components/SearchBox";
 import FilterBox from "./components/FilterBox"
 import 'bootstrap/dist/css/bootstrap.css';
 
+
 class App extends Component {
   constructor() {
     super();
@@ -81,7 +82,7 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <h1 >Movies List</h1>
+  
          <div className="row justify-content-md-center mb-3">
            <SearchBox setSearchValue={this.setSearchValue}/>
          </div>
@@ -98,7 +99,9 @@ class App extends Component {
           />
         </div>
 
-         <h3>My favorite Movies</h3>
+        
+         <h3 className="favorite"> Favorite </h3>
+        
 
          <div className="row">
          <MovieList

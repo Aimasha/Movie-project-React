@@ -9,9 +9,10 @@ class SearchBox extends Component{
     }
     render(){
         return (
-            <div >
+            <div className="inp-back" >
               <input 
-              placeholder="Type to search..." 
+              className="inpt"
+              placeholder="Type to search a movie..." 
               onChange={(event) => this.props.setSearchValue(event.target.value)}
               type="text" />
             </div>
